@@ -1,6 +1,6 @@
-﻿using Assm1_ADV.Class;
-using Assm1_ADV.Generices;
-using System.Drawing;
+﻿using Assm1_ADV.Generices;
+using Assm1_ADV.Class;
+//using System.Drawing;
 
 namespace Assm1_ADV
 {
@@ -89,6 +89,45 @@ namespace Assm1_ADV
 
             //Console.WriteLine($"HashCode of Employee 1 = {E1.GetHashCode()}");
             //Console.WriteLine($"HashCode of Employee 2 = {E2.GetHashCode()}");
+            #endregion
+
+            #region Sort
+            //int[] Numbers = { 12, 25, 3, 6, 9, 5, 20, 1, 2, 10 };
+            //foreach (int i in Numbers) 
+            //    Console.Write($" {i}");
+
+            //Helper<int>.BubbleSort(Numbers);
+
+            //foreach (int i in Numbers)
+            //    Console.Write($" {i}");
+
+
+            //Employee[] employees = new Employee[]
+            //{
+            //    new Employee() { Id = 10, Name = "Ahmed", Salary = 2000 },
+            //    new Employee() { Id = 20, Name = "Hany" , Salary = 9000 },
+            //    new Employee() { Id = 30, Name = "taha" , Salary = 1000 },
+            //    new Employee() { Id = 40, Name = "makram" , Salary = 10000 },
+            //};
+
+            //Helper<Employee>.BubbleSort(employees);
+
+            //foreach (Employee employee in employees)
+            //    Console.WriteLine(employee);
+
+            //Point[] points =
+            //{
+            //    new Point(7 , 2 ),
+            //    new Point(2 , 5 ),
+            //    new Point(6 , 4 ),
+            //    new Point(7 , 3 ),
+            //    new Point(1 , 2 ),
+            //    new Point(9 , 2),
+            //};
+            //Helper<Point>.BubbleSort(points);
+            //foreach (Point p in points)
+            //    Console.WriteLine(p);
+
             #endregion
 
 
