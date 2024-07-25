@@ -41,6 +41,21 @@ namespace Assm1_ADV.Class
             X = Y;
             Y = Temp;
         }
+
+
+        public static int SearchArray(T[] array, T value)
+        {
+            if(array is not null)
+            {
+                for (int i = 0; i < array.Length; i++)
+                {
+
+                    if (value.Equals(array[i]))
+                        return i;
+                }
+            }
+            return -1;
+        }
         #endregion
 
 

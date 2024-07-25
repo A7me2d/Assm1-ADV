@@ -1,4 +1,5 @@
 ﻿using Assm1_ADV.Class;
+using Assm1_ADV.Generices;
 using System.Drawing;
 
 namespace Assm1_ADV
@@ -46,7 +47,41 @@ namespace Assm1_ADV
             #endregion
 
 
+            #region Generics [Search Ex]
 
+            //int[] Number = { 4,5, 6, 9, 3, 2, 8, 1, 7 };
+
+            //int Index = Helper<int>.SearchArray(Number , 15);
+
+            //Console.WriteLine($"Index of 6 is ",Index);
+
+            //Employee E1 = new Employee() { Id = 10 , Name = "Ahmed" , Salary = 1000};
+            //Employee E2 = new Employee() { Id = 20 , Name = "Amr" , Salary = 5000};
+
+            //if(E1 == E2)
+            //    Console.WriteLine("Equal");
+            //else
+            //    Console.WriteLine("Not Equal");
+
+            //if (E1.Equals(E2))
+            //    Console.WriteLine("Equal");
+            //else
+            //    Console.WriteLine("Not Equal");
+
+
+            //Employee E1 = new Employee() { Id = 10, Name = "Ahmed", Salary = 1000 };
+            //Employee E2 = new Employee() { Id = 20 , Name = "Amr" , Salary = 5000};
+            //Employee E3 = new Employee() { Id = 50 , Name = "Hany" , Salary = 6000};
+
+            //Employee[] employees = new Employee[2]
+            //{
+            //    E1 , E2
+            //};
+
+            //int Index = Helper<Employee>.SearchArray(employees, E1);
+
+            //    Console.WriteLine( Index);
+            #endregion
 
 
 
