@@ -8,6 +8,10 @@ namespace Assm1_ADV.Generices
 {
     internal class Point : IComparable<Point>
     {
+        public Point()
+        {
+
+        }
         public int X {get; set;}
         public int Y { get; set; }
 
@@ -40,6 +44,11 @@ namespace Assm1_ADV.Generices
                 return Y.CompareTo(other.Y);
             else
                 return X.CompareTo(other.X);
+        }
+
+        public int CompareTo(Point other)
+        {
+            throw new NotImplementedException();
         }
     }
 }

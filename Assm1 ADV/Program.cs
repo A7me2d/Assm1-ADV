@@ -1,6 +1,7 @@
 ﻿using Assm1_ADV.Generices;
 using Assm1_ADV.Class;
-//using System.Drawing;
+using System.Drawing;
+using Point = Assm1_ADV.Generices.Point;
 
 namespace Assm1_ADV
 {

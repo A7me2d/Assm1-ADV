@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assm1_ADV.Generices;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -7,8 +8,9 @@ using System.Threading.Tasks;
 
 namespace Assm1_ADV.Class
 {
-    internal class Helper<T> where T : IComparable<T>
+    internal class Helper<T>
     {
+        //public
 
         #region Non Generic
         //public static void SWAP(ref int X, ref int Y)
@@ -52,7 +54,7 @@ namespace Assm1_ADV.Class
 
         #region Generic
 
-        public static void BubbleSort(T[] array)
+        public static void BubbleSort<T1>(T1[] array) where T1 : IComparable
         {
             if (array is not null)
             {
@@ -60,9 +62,9 @@ namespace Assm1_ADV.Class
                 {
                     for (int k = 0; k < array.Length - i - 1; k++)
                     {
-                        if (array[k].CompareTo( array[k + 1]) == 1)
+                        if (array[k].CompareTo(array[k + 1]) == 1)
 
-                            SWAP(ref array[k], ref array[k + 1]);
+                           Helper<T1>.SWAP(ref array[k], ref array[k + 1]);
 
                     }
                 }
