@@ -83,6 +83,13 @@ namespace Assm1_ADV
             //    Console.WriteLine( Index);
             #endregion
 
+            #region GetHashCode
+            //Employee E1 = new Employee() { Id = 10  , Name = "Ahmed" , Salary = 1000};
+            //Employee E2 = new Employee() { Id = 1000, Name = "Ahmed" , Salary = 10};
+
+            //Console.WriteLine($"HashCode of Employee 1 = {E1.GetHashCode()}");
+            //Console.WriteLine($"HashCode of Employee 2 = {E2.GetHashCode()}");
+            #endregion
 
 
         }

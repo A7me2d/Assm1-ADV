@@ -31,6 +31,10 @@ namespace Assm1_ADV.Generices
             return !left.Equals(right);
         }
 
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Id.GetHashCode() , Name.GetHashCode() , Salary.GetHashCode());
+        }
         #endregion
 
     }
